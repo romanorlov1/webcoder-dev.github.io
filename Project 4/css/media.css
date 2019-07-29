@@ -1,0 +1,241 @@
+@media screen and (max-width: 1196px) {
+	.header-main__container {
+		padding-left: 10%;
+	}
+
+
+
+	.mobile-telephone {
+		display: none;
+	}
+
+	.item-box {
+		justify-content: space-around;
+	}
+
+
+
+	.about-page {
+		padding: 70px 0;
+	}
+
+	.about-item {
+		width: 45%;
+	}
+
+	.about-item:last-child {
+		margin: 30px auto 0 auto;
+	}
+
+
+
+	.price-page {
+		padding: 75px 0 300px 0;
+	}
+
+	.price-item {
+		width: 45%;
+	}
+
+	.price-item:nth-child(2) {
+		order: 1;
+
+		margin: 40px auto 0 auto
+	}
+
+	.price-item:last-child {
+		padding-top: 60px;
+	}
+}
+
+/* добавил промежуточные изменения, чтобы всё было красиво и одинаково. П - Перфикционизм:D */
+@media screen and (max-width: 1072px) {
+	.price-item:last-child {
+		padding-top: 90px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.header-main__container {
+		padding-left: 15px;
+	}
+
+	.header-page__left-block {
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 944px) {
+	.about-item:first-child .about-item__title {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width:910px) {
+	.about-item:first-child .about-item__title {
+		margin: 30px 0;
+	}
+}
+
+@media screen and (max-width: 939px) {
+	.price-item:first-child {
+		padding-top: 90px;
+	}
+}
+
+@media screen and (max-width:858px) {
+	.price-item:last-child {
+		padding-top: 60px;
+	}
+}
+/* добавил промежуточные изменения, чтобы всё было красиво и одинаково. П - Перфикционизм:D */
+
+@media screen and (max-width: 768px) {
+	.header-page {
+		background: #3d2e87;
+
+		padding: 25px 0 120px 0;
+	}
+
+	.header-page__nav {
+		width: 100%;
+
+		display: none;
+		order: 2;
+
+		box-shadow: 0px 0px 10px 0px #3a2c80;
+
+		margin-top: 10px;
+	}
+
+	.header-page__toggler {
+		display: flex;
+		order: 1;
+
+		margin: 0 15px 0 50px;
+	}
+
+	.main-menu {
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		text-align: center;
+
+		padding: 10px 0;
+	}
+
+	.main-menu__item:not(:last-child) {
+		margin: 0 0 10px 0;
+	}
+
+	.header-page__main-content {
+		margin-top: 135px;
+	}
+
+
+
+	.about-item {
+		width: 55%;
+	}
+
+	.about-item:nth-child(2) {
+		margin-top: 30px;
+	}
+
+	.about-item:last-child {
+		margin: 30px 0 0 0;
+	}
+
+
+
+	.price-page {
+		background: #eaeef0;
+
+		padding-bottom: 100px;
+	}
+
+	.price-page__title {
+		font-size: 33px;
+	}
+
+	.price-page__description {
+		font-size: 18px;
+	}
+
+	.price-item {
+		width: 55%;
+	}
+
+	.price-item:nth-child(2) {
+		margin-top: 30px;
+	}
+
+	.price-item:last-child {
+		margin: 30px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.about-item {
+		width: 75%;
+	}
+
+	.price-item {
+		width: 75%;
+	}
+
+	.price-item:hover {
+		transform: scale(1.105);
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.about-item {
+		width: 100%;
+	}
+
+
+
+	.price-item {
+		width: 90%;
+	}
+
+	.price-item:hover {
+		transform: scale(1.05);
+	}
+
+	.price-item__title {
+		font-size: 22px;
+
+		margin-bottom: 30px;
+	}
+
+	.price-item__amount {
+		font-size: 30px;
+	}
+
+	.price-item__amount-description {
+		font-size: 16px;
+	}
+
+	.price-item__button {
+		font-size: 16px;
+
+		padding: 10px 40px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header-page__toggler {
+		margin: 0 10px 0 30px;
+	}
+
+	.header-page__button {
+		font-size: 14px;
+
+		margin-left: 30px;
+	}
+}
