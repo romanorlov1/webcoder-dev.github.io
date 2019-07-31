@@ -17,10 +17,4 @@ $(document).ready(function() {
             }
         });
 	});
-	
-	$('.about-item').hover(function(){
-		$(this).addClass('about-item__hovered');
-	}, function(){
-		$(this).removeClass('about-item__hovered');
-	});
 });
