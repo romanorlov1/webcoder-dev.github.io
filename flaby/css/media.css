@@ -586,3 +586,37 @@
 		line-height: 22px;
 	}
 }
+
+@media screen and (max-width: 444px) {
+	.logo__img {
+		width: 40px;
+	}
+
+
+	
+	.header-top__logo-text {
+		font-size: 28px;
+	}
+
+	.header-top__toggler {
+		font-size: 28px;
+	}
+
+	.header-top__button {
+		font-size: 14px;
+	}
+
+
+
+	.header-main__title {
+		font-size: 26px;
+	}
+	
+	.header-main__sign {
+		margin: 0 5px;
+	}
+
+	.header-main__description {
+		font-size: 16px;
+	}
+}
