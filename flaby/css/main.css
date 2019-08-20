@@ -316,7 +316,7 @@ img {
 
 .header-main {
 	height: 100vh;
-	min-height: 550px;
+	min-height: 600px;
 
 	background: #51aff7 url(../img/header-bg.jpg) no-repeat center center / cover;
 }
@@ -605,8 +605,6 @@ img {
 }
 
 .offer-item {
-	position: relative;
-
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -616,12 +614,10 @@ img {
 	align-items: center;
 
 	margin-bottom: 15px;
-	padding-left: 35px;
 }
 
 .offer-item::before {
-	position: absolute;
-	left: 0;
+	position: relative;
 
 	width: 15px;
 	height: 15px;
@@ -633,6 +629,8 @@ img {
 	border: 4px solid #c8ebf5;
 
 	border-radius: 100%;
+
+	margin-right: 25px;
 }
 
 .offer-page__button {
@@ -782,7 +780,7 @@ img {
 .comment-item__img {
 	position: absolute;
 	top: -55px;
-	left: calc((100% - 100px) / 2);
+	left: calc( ( 100% - 105px ) * 0.5 );
 
 	width: 105px;
 	height: 105px;
@@ -1320,6 +1318,8 @@ img {
 	font-weight: 600;
 
 	color: #7c7c7c;
+
+	text-align: center;
 }
 
 .footer-page__copyright::after,

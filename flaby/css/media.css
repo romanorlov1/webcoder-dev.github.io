@@ -547,6 +547,10 @@
 	    padding: 95px 0 70px 0;
 	}
 
+	.download-page__left-box {
+		max-width: 80%;
+	}
+
 
 
 	.price-page {
@@ -593,6 +597,18 @@
 	}
 
 
+
+	.short-page__sub-title {
+		margin-bottom: 20px;
+	}
+
+
+
+	.item__title {
+		font-size: 16px;
+	}
+
+
 	
 	.header-top__logo-text {
 		font-size: 28px;
@@ -618,5 +634,180 @@
 
 	.header-main__description {
 		font-size: 16px;
+	}
+
+	.header-main__button-box {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.header-main__button {
+		width: 75%;
+	}
+
+	.header-main__left-button {
+		margin-bottom: 15px;
+	}
+
+
+
+	.offer-item {
+		text-align: start;
+
+		line-height: 20px;
+	}
+	
+	.offer-item::before {
+		margin-right: 15px;
+	}
+
+
+
+	.ability-item__img {
+		margin-right: 10px;
+	}
+
+
+
+	.comment-item {
+		padding: 40px 10px;
+	}
+
+	.comment-item__author {
+		margin-bottom: 15px;
+	}
+
+	.comment-item__img {
+		top: -50px;
+		left: calc( ( 100% - 85px ) * 0.5 );
+
+		width: 85px;
+		height: 85px;
+	}
+
+	.comment-item__description {
+		line-height: 26px;
+	}
+
+	.comment-page__pagination-text {
+		font-size: 16px;
+	}
+
+
+
+	.download-page__image {
+		width: 270px;
+	}
+
+	.download-page__left-box {
+		max-width: 90%;
+	}
+
+
+
+	.price-item {
+		width: 85%;
+
+		padding: 30px 20px;
+	}
+
+	.price-item__img {
+		width: 27%;
+	}
+
+	.price-item__amount {
+		font-size: 60px;
+	}
+
+	.price-page__button {
+		padding: 20px 50px;
+	}
+
+
+
+	.contact-page {
+		padding: 60px 0 90px 0;
+	}
+
+	.subscribe-form__input {
+		width: 85%;
+	}
+
+	.subscribe-form__field {
+		font-size: 14px;
+	}
+
+	.subscribe-form__button {
+		font-size: 15px;
+	}
+
+
+
+	.footer-page__logo {
+		margin-bottom: 20px;
+	}
+
+	.footer-page__logo-text {
+		font-size: 32px;
+	}
+
+	.footer-page__bottom {
+		padding: 25px 0;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.header-main__button {
+		width: 85%;
+	}
+
+
+
+	.ability-item {
+		width: 100%;
+	}
+
+
+	
+	.comment-page__pagination-text {
+		display: none;
+	}
+
+
+
+	.download-page__left-box {
+		max-width: 100%;
+	}
+
+
+
+	.price-item {
+		width: 100%;
+	}
+
+
+
+	.subscribe-form__input {
+		width: 95%;
+	}
+
+
+
+	.footer-menu {
+		width: 100%;
+	}
+
+	.footer-menu:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	.footer-menu__title {
+		margin-bottom: 15px;
+	}
+
+	.footer-menu__item:not(:last-child) {
+		margin-bottom: 7px;
 	}
 }
