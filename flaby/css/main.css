@@ -53,6 +53,12 @@ img {
 
 
 
+.body__no-scroll {
+	overflow: hidden;
+}
+
+
+
 .container {
 	max-width: 1140px;
 
@@ -252,12 +258,25 @@ img {
 }
 
 .header-top__toggler {
-	font-size: 32px;
 	color: #fff;
 
 	cursor: pointer;
 
 	display: none;
+}
+
+.header-top__toggle-on {
+	font-size: 32px;
+}
+
+.header-top__toggle-off {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	
+	z-index: 2;
+
+	font-size: 42px;
 }
 
 .header-menu {

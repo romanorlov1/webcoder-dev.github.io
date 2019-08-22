@@ -12,7 +12,7 @@
 
 		text-align: center;
 	
-		margin-top: 100px;
+		margin-top: 150px;
 	}
 	
 	.header-main__headphones-img,
@@ -106,6 +106,8 @@
 }
 
 @media screen and (max-width: 960px) {
+	/* при клике на меню сделать класс, по которому все элементы скрывать */
+
 	.header-top__nav {
 		-webkit-box-ordinal-group: 2;
 		-ms-flex-order: 1;
@@ -114,13 +116,49 @@
 		margin-right: 0;
 	}
 
-	.header-top__toggler {
+	.header-top__toggle-on {
 		display: block;
 	}
 	
 	.header-menu {
 		display: none;
+		
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+
+		z-index: 1;
+
+		height: 100vh;
+
+		background-color: #51aff7;
+		
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+
+		text-align: center;
 	}
+
+	.header-menu__item:not(:last-child) {
+		margin: 0 0 30px 0;
+	}
+
+	.header-menu__link {
+		font-size: 20px;
+	}
+
+	
 
 	.header-top__button {
 		margin-right: 30px;
@@ -614,7 +652,7 @@
 		font-size: 28px;
 	}
 
-	.header-top__toggler {
+	.header-top__toggle-on {
 		font-size: 28px;
 	}
 
