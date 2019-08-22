@@ -121,6 +121,8 @@
 	}
 	
 	.header-menu {
+		display: none;
+		
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -129,8 +131,6 @@
 		z-index: 1;
 
 		height: 100vh;
-
-		display: none;
 
 		background-color: #51aff7;
 		

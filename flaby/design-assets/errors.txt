@@ -1,0 +1,12 @@
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "Example@gmail.com": Unsupported extension: com
+[2019-8-16 13:08:45] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2019-8-16 13:08:47] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
