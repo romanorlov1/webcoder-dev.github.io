@@ -17,6 +17,8 @@ $(document).ready(function() {
 		}
 	});
 
+
+
 	$('.scroll').click( function() {
 		var scroll_el = $(this).attr('href');
 		if ($(scroll_el).length != 0) {
@@ -25,6 +27,8 @@ $(document).ready(function() {
 		
 		return false;
 	});
+
+
 
 	$('.header-top__toggle-on').on("click", function() {
 		$('.header-menu').slideToggle(300, function() {
@@ -49,6 +53,8 @@ $(document).ready(function() {
 		});
 	});
 
+
+
 	$('.header-menu__link').on("click", function() {
 		$('.header-menu').slideToggle(300, function() {
 			if($('body').hasClass('body__no-scroll')) {
@@ -59,5 +65,4 @@ $(document).ready(function() {
 			}
 		});
 	});
-
 });
