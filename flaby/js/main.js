@@ -35,9 +35,9 @@ $(document).ready(function() {
 			if(!$('body').hasClass('body__no-scroll')) {
 				$('body').addClass('body__no-scroll');
 
+				$('.header-top__toggle-off').css('display', 'block');
 				$('.header-top__nav').css('display', 'block');
 				$('.header-menu').css('display', 'flex');
-				$('.header-top__toggle-off').css('display', 'block');
 			}
 		});
 	});
@@ -47,8 +47,8 @@ $(document).ready(function() {
 			if($('body').hasClass('body__no-scroll')) {
 				$('body').removeClass('body__no-scroll');
 
-				$('.header-menu').css('display', 'none');
 				$('.header-top__toggle-off').css('display', 'none');
+				$('.header-menu').css('display', 'none');
 			}
 		});
 	});
