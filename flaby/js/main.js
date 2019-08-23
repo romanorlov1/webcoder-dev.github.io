@@ -50,14 +50,13 @@ $(document).ready(function() {
 	});
 
 	$('.header-menu__link').on("click", function() {
-		$('.header-menu').slideToggle(300, function() {
-			if($('body').hasClass('body__no-scroll')) {
+		if($('body').hasClass('body__no-scroll')) {
+			$('.header-menu').slideToggle(300, function() {
 				$('body').removeClass('body__no-scroll');
 
 				$('.header-menu').css('display', 'none');
 				$('.header-top__toggle-off').css('display', 'none');
-			}
-		});
+			});
+		}
 	});
-
 });
