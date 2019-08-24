@@ -1,0 +1,535 @@
+/* 
+	Helper style-box:
+		1. Common styles
+		2. Main-page styles
+		3. Header-page styles
+		4. Service-page styles
+		5. Ability-page styles
+		6. Advert-page styles
+		7. Footer-page styles
+		8. Footer-top styles
+		9. Footer-middle styles
+		10. Footer-bottom styles
+*/
+
+
+
+/* 1. Common styles */
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'), url(../fonts/bebasneuebold.woff2) format('woff2'), url(../fonts/bebasneuebold.woff) format('woff'), url(../fonts/bebasneuebold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* 1. Common styles */
+
+
+
+/* 2. Main-page styles */
+
+.main-page {
+	width: 100%;
+
+	background: #fff url(../images/bg.jpg) no-repeat right center / cover;
+
+	padding: 120px 0 300px 0;
+}
+
+/* 2. Main-page styles */
+
+
+
+/* 3. Header-page styles */
+
+.header-page {
+	max-width: 1440px;
+
+	background-color: #fff;
+	
+	box-shadow: 0px 0px 17px 0px #9b9999;
+
+	margin: 0 auto;
+	padding: 15px 60px;
+
+	transition: 0.75s;
+}
+
+/* 
+.header-page__scrolled {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	max-width: 100%;
+
+	padding: 5px 150px;
+} */
+
+.header-page__container {
+	display: flex;
+	align-items: center;
+}
+
+.header-page__logo-box {
+	display: flex;
+	align-items: center;
+
+	margin-right: auto;
+}
+
+.header-page__logo-img {
+	margin-right: 40px;
+}
+
+.header-page__logo-text {
+	font-size: 60px;
+	font-family: 'Bebas Neue';
+
+	background: linear-gradient(180deg, #e73927 23%, #fe8801 76%, #ff8900);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.header-page__nav {
+	margin-right: 50px;
+}
+
+.header-menu {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu__item:not(:last-child) {
+	margin-right: 35px;
+}
+
+.header-menu__link {
+	font-size: 32px;
+	font-family: 'Bebas Neue';
+
+	color: #191919;
+	transition: 0.5s;
+}
+
+.header-menu__link:hover {
+	color: #fe8701;
+	transition: 0.5s;
+}
+
+.header-menu__search {
+	margin-right: 15px;
+}
+
+/* 3. Header-page styles */
+
+
+
+/* 4. Service-page styles */
+
+.service-page {
+	padding: 105px 100px 250px 120px;
+}
+
+.service-page__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.servcie-page__text-box {
+	width: 45%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+
+	margin-bottom: 150px;
+}
+
+.service-page__title {
+	position: relative;
+
+	font-size: 42px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+
+	color: #191919;
+
+	line-height: 52px;
+
+	margin-bottom: 120px;
+}
+
+.service-page__title::after {
+	position: absolute;
+	left: -30px;
+	right: -30px;
+	bottom: -50px;
+
+	content: '';
+
+	height: 1px;
+
+	background-color: #191919;
+}
+
+.service-page__description {
+	font-size: 29px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+
+	color: #747474;
+
+	line-height: 34px;
+}
+
+/* 4. Service-page styles */
+
+
+
+/* 5. Ability-page styles */
+
+.ability-page {
+	width: 80%;
+
+	background-color: #fff;
+	
+	box-shadow: 0px 0px 17px 0px #9b9999;
+
+	margin: 0 auto 85px auto;
+	padding: 30px 150px 40px 150px;
+}
+
+.ability-page__item-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.ability-item {
+	width: 23%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+}
+
+.ability-item__img {
+	margin-bottom: 15px;
+}
+
+.ability-item__title {
+	font-size: 29px;
+	font-family: 'Bebas Neue';
+
+	color: #191919;
+
+	line-height: 26px;
+}
+
+/* 5. Ability-page styles */
+
+
+
+/* 6. Advert-page styles */
+
+.advert-page {
+	position: relative;
+
+	width: 95%;
+
+	background-color: #ef432c;
+
+	margin: 0 auto;
+	padding: 70px 80px;
+}
+
+.advert-page::after {
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	right: 5px;
+	bottom: 10px;
+
+	content: '';
+
+	border: 3px solid #fff;
+}
+
+.advert-page__text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.advert-page__title {
+	font-family: 'Bebas Neue';
+
+	color: #fff;
+}
+
+.advert-page__sup-title {
+	font-size: 135px;
+}
+
+.advert-page__sub-title {
+	font-size: 105px;
+
+	line-height: 55px;
+}
+
+.advert-page__percent {
+	font-size: 300px;
+
+	line-height: 315px;
+}
+
+/* 6. Advert-page styles */
+
+
+
+/* 7. Footer-page styles */
+
+.footer-page {
+	font-family: 'Bebas Neue';
+
+	background-color: #303030;
+
+	padding: 50px 100px;
+}
+
+/* 7. Footer-page styles */
+
+
+
+/* 8. Footer-top styles */
+
+.footer-top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 150px;
+}
+
+.footer-top__title {
+	font-size: 52px;
+
+	color: #fff;
+
+	margin-bottom: 30px;
+}
+
+.footer-top__service {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer-top__service-link {
+	display: flex;
+	align-items: center;
+
+	transition: 0.5s;
+}
+
+.footer-top__service-link:hover  {
+	transform: scale(1.025);
+
+	transition: 0.5s;
+}
+
+.footer-top__service-percent {
+	font-size: 40px;
+
+	color: #fff;
+}
+
+.footer-top__service-text {
+	font-size: 30px;
+
+	color: #fff;
+
+	margin-left: 10px;
+}
+
+/* 8. Footer-top styles */
+
+
+
+/* 9. Footer-middle styles */
+
+.footer-middle {
+	display: flex;
+	flex-direction: column;
+
+	margin-bottom: 215px;
+}
+
+.footer-middle__container {
+	display: flex;
+	align-items: center;
+}
+
+.footer-middle__nav {
+	margin-right: 270px;
+}
+
+.footer-middle__menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-middle__menu-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-middle__menu-link {
+	display: flex;
+	align-items: center;
+
+	font-size: 24px;
+
+	color: #fff;
+
+	transition: 0.5s;
+}
+
+.footer-middle__menu-link:hover {
+	transform: scale(1.025);
+
+	transition: 0.5s;
+}
+
+.footer-middle__menu-item:first-child .footer-middle__menu-img {
+	margin-right: 20px;
+}
+
+.footer-middle__menu-item:nth-child(2) .footer-middle__menu-img {
+	margin: 0 22px 0 5px;
+}
+
+.footer-middle__menu-item:nth-child(3) .footer-middle__menu-img {
+	margin-right: 17px;
+}
+
+.footer-middle__menu-item:nth-child(4) .footer-middle__menu-img {
+	margin: 0 25px 0 5px;
+}
+
+.footer-middle__menu-item:last-child .footer-middle__menu-img {
+	margin: 0 20px 0 3px;
+}
+
+.footer-middle__title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 52px;
+
+	color: #fff;
+
+	margin-bottom: 20px;
+}
+
+.footer-middle__contact-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: 150px;
+}
+
+.footer-middle__contact-title {
+	font-size: 36px;
+
+	color: #fff;
+
+	margin-bottom: 25px;
+}
+
+.footer-middle__contact-list {
+	width: 45%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-middle__contact-img {
+	transition: 0.5s;
+}
+
+.footer-middle__contact-img:hover {
+	transform: scale(1.125);
+
+	transition: 0.5s;
+}
+
+/* 9. Footer-middle styles */
+
+
+
+/* 10. Footer-bottom styles */
+
+.footer-bottom {
+	text-align: center;
+}
+
+.footer-bottom__copyright {
+	font-size: 32px;
+
+	color: #fff;
+
+	text-align: center;
+}
+
+/* 10. Footer-bottom styles */
