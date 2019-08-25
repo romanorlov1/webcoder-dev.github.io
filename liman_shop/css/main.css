@@ -52,13 +52,18 @@ img {
 
 
 
+.body__no-scroll {
+	overflow: hidden;
+}
+
+
+
 @font-face {
     font-family: 'Bebas Neue';
     src: local('Bebas Neue Bold'), local('BebasNeueBold'), url(../fonts/bebasneuebold.woff2) format('woff2'), url(../fonts/bebasneuebold.woff) format('woff'), url(../fonts/bebasneuebold.ttf) format('truetype');
     font-weight: 700;
     font-style: normal;
 }
-
 
 /* 1. Common styles */
 
@@ -89,21 +94,7 @@ img {
 
 	margin: 0 auto;
 	padding: 15px 60px;
-
-	transition: 0.75s;
 }
-
-/* 
-.header-page__scrolled {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-
-	max-width: 100%;
-
-	padding: 5px 150px;
-} */
 
 .header-page__container {
 	display: flex;
@@ -133,6 +124,31 @@ img {
 
 .header-page__nav {
 	margin-right: 50px;
+}
+
+.header-page__toggler-on {
+	display: none;
+
+	font-size: 46px;
+	font-weight: bold;
+
+	color: #303030;
+}
+
+.header-page__toggler-off {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+
+	z-index: 2;
+
+	display: none;
+
+	font-size: 60px;
+	font-family: Arial, Helvetica;
+	font-weight: bold;
+
+	color: #303030;
 }
 
 .header-menu {
@@ -174,10 +190,10 @@ img {
 .service-page__container {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
 }
 
-.servcie-page__text-box {
+.service-page__text-box {
 	width: 45%;
 
 	display: flex;
@@ -186,7 +202,7 @@ img {
 
 	text-align: center;
 
-	margin-bottom: 150px;
+	/* margin-bottom: 150px; */
 }
 
 .service-page__title {
@@ -407,9 +423,6 @@ img {
 /* 9. Footer-middle styles */
 
 .footer-middle {
-	display: flex;
-	flex-direction: column;
-
 	margin-bottom: 215px;
 }
 
@@ -419,7 +432,7 @@ img {
 }
 
 .footer-middle__nav {
-	margin-right: 270px;
+	margin-right: 15%;
 }
 
 .footer-middle__menu {
